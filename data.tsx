@@ -19,7 +19,7 @@ export const socialNetworks = [
     {
         id: 4,
         logo: <Instagram size={30} strokeWidth={1} />,
-        src: "https://www.instagram.com/itzana.studios?igsh=cGp1Zm9ndHljY2du",
+        src: "https://www.instagram.com/_davesound_dev?igsh=cGp1Zm9ndHljY2du",
     },
     {
         id: 5,
