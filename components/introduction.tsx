@@ -1,12 +1,14 @@
 "use client"
 import Image from 'next/image'
-import Link from 'next/link';
+// import Link from 'next/link';
 import { TypeAnimation } from 'react-type-animation';
+import Model from './spline-model';
 const Introduction = () =>{
     return(
         <div className='z-20 w-full bg-darkBg/60'>
             <div className='z-20 grid items-center h-full p-8 py-28 md:py-0 md:grid-cols-2'>
-            <Image src="/home-4.png" priority width="450" height="450" alt="Avatar" className='pt-9 pl-12'/>
+            {/* <Image src="/home-4.png" priority width="450" height="450" alt="Avatar" className='pt-9 pl-12'/> */}
+            <Model/>
                 <div className="flex flex-col justify-center max-w-md">
                     <h1 className="mb-5 text-lg leading-tight text-center md:text-left md:text-4xl md:mb-10">Desarrollando mundos virtuales, <br />
                         <TypeAnimation
